@@ -1,0 +1,105 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	color: #C414FF;
+}
+ p {
+     font-variant: small-caps;
+     position: center;
+      width: 700px;
+
+ }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+ .project p {
+     font-variant: small-caps;
+     width: 700px;
+      left: 25%;
+     bottom: 0;
+     right: 0;
+     position: fixed;
+ }
+
+ #project1 {
+     font-variant: small-caps;
+     left: 25%;
+ }
+/* this style exists to make it obvious that you've successfully linked
+   the CSS to the page. feel free to remove it once the link is working. */
+body {
+     border: 1px dotted gray;
+     padding: 20px;
+}
+.container {
+     content:"";
+     background-color: #C4C4C4;
+     border-color: #000000;
+     border: 0px;
+     position: center
+     z-index: -1;   
+     width: 700px;
+     height: 1000px;
+}
+
+.box {
+     content:"";
+     background-color: #FFFFFF;
+     border: 1px solid #000000;
+     position: center  
+     width: 700px;
+     height: 150px;
+
+}
+.thumbnailleft{
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+
+.jumbotron {
+	position: relative;
+	background: none;
+}
+.jumbotron p.active {
+     color: #1f6ddb;
+     width: 300px;
+}
+
+.jumbotron:after {
+     content:"";
+     background-color: #C4C4C4;
+     opacity: 1;
+     top: 0;
+     left: 25%;
+     bottom: 0;
+     right: 0;
+     position: fixed;
+     z-index: -1;	
+     width: 700px;
+     height: 100px;
+}
+
+
+
+.project {
+     margin-left: 20px;
+     background-color: #deebf7;
+     padding: 20px;
+     width: 300px;
+}
+
